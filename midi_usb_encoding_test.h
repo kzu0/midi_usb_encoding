@@ -183,7 +183,7 @@ static bool midi_usb_encoder_test() {
     }
     else
     {
-        printf ("Test data OK \n");
+        printf ("Test data OK \n\n");
         fflush(stdout);
     }
 
