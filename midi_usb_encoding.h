@@ -145,7 +145,7 @@ static inline uint8_t midi_usb_get_cable( midi_usb_encoder_ctx_t* ctx )
  *
  * @return numero di byte codificati
  */
-uint8_t midi_usb_encode_sysex( midi_usb_encoder_ctx_t* ctx, uint8_t cn, uint8_t byte, midi_usb_packet_t* midi_packet );
+uint8_t midi_usb_encode_sysex( midi_usb_encoder_ctx_t* ctx, uint8_t byte, midi_usb_packet_t* midi_packet );
 
 #ifdef __cplusplus
 }
