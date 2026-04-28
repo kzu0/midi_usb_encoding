@@ -141,7 +141,7 @@ static bool midi_usb_encoder_test() {
 
     for (uint32_t i = 0; i < DATA_SIZE; i++)
     {
-        if ( midi_usb_encode_sysex(&ctx, cable, raw_data[i], &packet))
+        if ( midi_usb_encode_sysex(&ctx, raw_data[i], &packet))
         {
             memcpy(&encoded_data[encoded_pos], &packet, sizeof(packet));
             encoded_pos += sizeof(packet);
